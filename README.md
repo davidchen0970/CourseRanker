@@ -10,7 +10,7 @@
 
 2. **文章內容頁面**：  
    - 顯示課程詳細資訊：名稱、授課教師、上課時段。  
-   - 可以計算課程評分，整合 NestedScrollView 與 RecyclerView，實現整頁滾動。
+   - 可以計算課程評分，整合 NestedScrollView 與 RecyclerView，讓整個頁面可以滾動。
 
 3. **登入功能**：  
    - 提供用戶註冊與登入功能。
@@ -28,16 +28,16 @@
     - `user_table`：管理用戶資訊。
 
 - **本地伺服器 (local server)**：  
-  - 與 SQL 資料庫溝通，並透過遠端伺服器進行轉接。
+  - 與 SQL 資料庫溝通，並透過遠端伺服器進行 API 的資料傳輸。
 
 - **遠端伺服器 (remote server)**：  
-  - 使用 Heroku 部署，負責處理來自應用程式的數據請求，並解決本地伺服器網址動態變更問題。
+  - 使用 Heroku 部署，負責處理來自應用程式的資料請求，並解決本地伺服器網址動態變更問題。 (目前已無法使用)
 
 ## 開發工具與技術
 - **資料庫**：MySQL  
 - **伺服器**：Heroku (remote server)  
 - **前端框架**：RecyclerView, NestedScrollView  
-- **開發語言**：Java/Kotlin (根據需求適配)
+- **開發語言**：Kotlin 
 
 ## 專案截圖
 
